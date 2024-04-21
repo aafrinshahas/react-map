@@ -1,0 +1,44 @@
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.user-detail-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-detail-left .user-img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.user-detail-left .user-img .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.user-detail-left .user-content{
+    line-height: 25px;
+    font-size: 16px;
+}
+.user-detail-left .user-content p{
+color: #6c6c6c;
+}
+
+.user-detail-right{
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.user-detail-right i{
+    color: #2AA67A;
+}
